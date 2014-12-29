@@ -13,7 +13,7 @@ water is poured from the top (and allowed to run off the sides). We'll assume
 all the hutches are square, have side length 1, and for the purposes of this
 problem we'll pretend that the hutch arrangement is two-dimensional.
 
-For example, suppose the heights of the stacked hutches are [1,4,2,5,1,2,3] (the
+For example, suppose the heights of the stacked hutches are `[1,4,2,5,1,2,3]` (the
 hutches are shown below):
 
     ...X...
@@ -47,11 +47,18 @@ Test cases
 ==========
 
 Inputs:
+
     (int list) heights = [1, 4, 2, 5, 1, 2, 3]
+
 Output:
+
     (int) 5
 
+
 Inputs:
+
     (int list) heights = [1, 2, 3, 2, 1]
+
 Output:
+
     (int) 0

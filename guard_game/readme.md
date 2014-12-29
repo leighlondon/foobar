@@ -19,21 +19,27 @@ See if you can short circuit this game entirely with a clever program, thus
 driving the guards back to severe boredom. That way they will fall asleep and
 allow you to sneak out!
 
-Write a function answer(x), which when given a number x, returns the final
-digit resulting from performing the above described repeated sum process on x.
+Write a function `answer(x)`, which when given a number `x`, returns the final
+digit resulting from performing the above described repeated sum process on `x`.
 
-x will be 0 or greater, and less than 2^31 -1 (or 2147483647), and the answer
-should be 0 or greater, and a single integer digit.
+`x` will be 0 or greater, and less than `2^31 -1` (or 2147483647), and the
+answer should be 0 or greater, and a single integer digit.
 
 Test cases
 ==========
 
 Inputs:
+
     (long) x = 13
+
 Output:
+
     (int) 4
 
 Inputs:
+
     (long) x = 1235
+
 Output:
+
     (int) 2
